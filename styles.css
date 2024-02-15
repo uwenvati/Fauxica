@@ -131,7 +131,7 @@ h1 {
 .news:before {
   position: absolute;
   content: "";
-  background: url('../images/confetti.svg');
+  background: url('confetti.svg');
   width: 100px;
   height: 100px;
   top: -20px;
@@ -173,14 +173,14 @@ p.details {
 
 .card1 {
   grid-area: left;
-  background-image: url(/images/clothing1.jpg);
+  background-image: url(clothing1.jpg);
   position: relative;
 }
 
 .card1::before {
   position: absolute;
   content: "";
-  background: url(/images/tag.svg) no-repeat;
+  background: url(tag.svg) no-repeat;
   width: 100%;
   height: 100%;
   top: 20px;
@@ -190,12 +190,12 @@ p.details {
 
 .card2 {
 
-  background-image: url(/images/clothing2.jpg);
+  background-image: url(clothing2.jpg);
 }
 
 .card3 {
   
-  background-image: url(/images/clothing3.jpg);
+  background-image: url(clothing3.jpg);
 }
 
 .card-details {
